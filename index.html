@@ -1,0 +1,84 @@
+<html>
+<html lang="kk">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BTS Концерті 2025</title>
+  </head>
+<body>
+  <header>
+    <h1>BTS Концерті 2025</h1>
+    <div class="buttons-top">
+      <a href="tickets.html">Билеттер</a>
+      <a href="merch.html">Мерч</a>
+    </div>
+  </header>
+
+  <div class="concert-date">
+    Концерт 2025 жылдың 20 маусымында Астана қаласында өтеді
+  </div>
+
+  <section class="members">
+    <!-- Жоғарғы қатар (4 адам) -->
+    <div class="member">
+      <img src="https://i.pinimg.com/736x/07/50/9c/07509ccf0f084554cc3e0ff112b97055.jpg" alt="RM">
+      <h3>RM (Ким Намжун)</h3>
+      <p>Топтың жетекшісі және рэпері. Өте ақылды, философиялық ән мәтіндерінің авторы.</p>
+    </div>
+
+    <div class="member">
+      <img src="https://i.pinimg.com/736x/8a/71/54/8a7154aba86c864adf53e51ab693002a.jpg" alt="Jin">
+      <h3>Jin (Ким Сокджин)</h3>
+      <p>Топтың вокалисі, “әлемдік көрік” деп аталады. Комедиялық мінезімен танымал.</p>
+    </div>
+
+    <div class="member">
+      <img src="https://i.pinimg.com/736x/01/b4/3c/01b43cb76790d512790ca48023f5f919.jpg" alt="Suga">
+      <h3>Suga (Мин Юнги)</h3>
+      <p>Рэпер және продюсер. Көптеген әндердің авторы және мінезі сабырлы.</p>
+    </div>
+
+    <div class="member">
+      <img src="https://i.pinimg.com/736x/4f/d3/67/4fd3671b6a2c9c3619dee70a536bd34d.jpg" alt="J-Hope">
+      <h3>J-Hope (Чон Хосок)</h3>
+      <p>Топтың би шебері және позитивтің символы. Би қойылымдарын басқарады.</p>
+    </div>
+
+    <!-- Төменгі қатар (3 адам) -->
+    <div class="member">
+      <img src="https://i.pinimg.com/736x/49/13/ac/4913acd31c14fbb576683b87fd56b8b3.jpg" alt="Jimin">
+      <h3>Jimin (Пак Джимин)</h3>
+      <p>Вокалист және биші. Сахнадағы харизмасымен ерекшеленеді.</p>
+    </div>
+
+    <div class="member">
+      <img src="https://i.pinimg.com/736x/71/d9/67/71d96710a7b3ba022d37f19e614906b9.jpg" alt="V">
+      <h3>V (Ким Тэхён)</h3>
+      <p>Терең дауыс иесі. Сәнге және актерлікке қызығады, ерекше тұлғалы.</p>
+    </div>
+
+    <div class="member">
+      <img src="https://i.pinimg.com/1200x/c6/12/52/c61252b08566099b3e9a32c3fcbee9c0.jpg" alt="Jungkook">
+      <h3>Jungkook (Чон Чонгук)</h3>
+      <p>Топтың ең кішісі, бірақ әмбебап талант — әнші, биші және видеооператор.</p>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2025 BTS Концерті. Барлық құқықтар қорғалған.</p>
+  </footer>
+
+  <script>
+    // Hover кезінде карточка жарықтайды
+    const members = document.querySelectorAll(".member");
+    members.forEach(member => {
+      member.addEventListener("mouseenter", () => {
+        member.style.boxShadow = "0 0 20px #ba68c8";
+      });
+      member.addEventListener("mouseleave", () => {
+        member.style.boxShadow = "0 2px 8px rgba(0,0,0,0.2)";
+      });
+    });
+  </script>
+</body>
+</html>
